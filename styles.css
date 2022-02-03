@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.caixa-superior {
+    background-image: url("./dev.svg");
+    height: 90vh;
+    background-size: cover;
+}
+
+.cabecalho {
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color:#FFFFFF;
+    display: inline;
+}
+
+.link-cabecalho{
+    font-size: 14px;
+    color:#FFFFFF;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 58px;
+    color:#FFFFFF;
+    position: relative;
+    top: 280px;
+    margin-left: 35px;
+}
+
+form{
+    opacity: 0;
+    transition: opacity 1s linear  ;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 100px;
+}
+
+.mostrar-formulario{
+    opacity: 1;
+}
+
+input{
+    display: block;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea{
+    display: block;
+    border-radius: 5px;
+    height: 100px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titulo-formulario{
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label{
+    font-size: 14px;
+    color: #252B42;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background: #40BB15;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.caixa-central{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#titulo-meio{
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.card{
+    width: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.titulo-card{
+    background: #219653;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul{
+    padding: 20px;
+    border: 1px solid #A9D6FF;
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixa-inferior{
+    background-color: #3f24a3;
+}
+
+#titulo-inferior{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.paragrafo-inferior{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px 50px 50px 50px;
+}
