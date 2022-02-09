@@ -1,5 +1,15 @@
 let formulario = document.getElementById("formulario-contato")
 
+
 function chameOAbacate() {
-    formulario.className = "mostrar-formulario"
+    if (formulario.className === "form") {
+
+        formulario.className = "mostrar-formulario"
+    } else {
+        formulario.className = "form"
+    }
+    
 }
+
+
+
