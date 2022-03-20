@@ -215,6 +215,5 @@ li{
 @media (min-width:501px) {
     .cabecalho{
         display: flex;
-        justify-content: center;
     }
 }
